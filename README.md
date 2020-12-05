@@ -23,3 +23,7 @@ We are using no external APIs in our app and only working with frameworks that a
 | ------------- | ---------------------------------- | -------------------------------------------------------------------------------------- | 
 | currWords     | An Array of Strings                | Words that seems to be abusive spoken in the last minute or might be as signal for help|
 | Dictionary    | Array of Words and phrases         | A collection of abusive phrases or words that have the highest possibilty of being used|
+
+# Gif
+<img src = "http://g.recordit.co/hkr7r7xFmc.gif"></img>
+For testing purpose, we are using "Hi" as a threatening word
