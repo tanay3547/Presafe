@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8683366257BFB3E00658B4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8683364257BFB3E00658B4E /* InfoPlist.strings */; };
 		E8D5653C257A7EEC00A15B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5653B257A7EEC00A15B93 /* AppDelegate.swift */; };
 		E8D5653E257A7EEC00A15B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5653D257A7EEC00A15B93 /* SceneDelegate.swift */; };
 		E8D56540257A7EEC00A15B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5653F257A7EEC00A15B93 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		E8D56548257A7EF000A15B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D56546257A7EF000A15B93 /* LaunchScreen.storyboard */; };
 		E8D56553257A7EF000A15B93 /* PresafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D56552257A7EF000A15B93 /* PresafeTests.swift */; };
 		E8D5655E257A7EF000A15B93 /* PresafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5655D257A7EF000A15B93 /* PresafeUITests.swift */; };
+		E8D5656C257AA1DA00A15B93 /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5656B257AA1DA00A15B93 /* TempViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E868335F257BF08700658B4E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		E8683360257BF08700658B4E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E8683365257BFB3E00658B4E /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		E8683367257BFB3E00658B4E /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		E8683368257BFB3E00658B4E /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		E8D56538257A7EEC00A15B93 /* Presafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D5653B257A7EEC00A15B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D5653D257A7EEC00A15B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		E8D56559257A7EF000A15B93 /* PresafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D5655D257A7EF000A15B93 /* PresafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresafeUITests.swift; sourceTree = "<group>"; };
 		E8D5655F257A7EF000A15B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D5656B257AA1DA00A15B93 /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,11 @@
 				E8D5653D257A7EEC00A15B93 /* SceneDelegate.swift */,
 				E8D5653F257A7EEC00A15B93 /* ViewController.swift */,
 				E8D56541257A7EEC00A15B93 /* Main.storyboard */,
+				E8D5656B257AA1DA00A15B93 /* TempViewController.swift */,
 				E8D56544257A7EF000A15B93 /* Assets.xcassets */,
 				E8D56546257A7EF000A15B93 /* LaunchScreen.storyboard */,
 				E8D56549257A7EF000A15B93 /* Info.plist */,
+				E8683364257BFB3E00658B4E /* InfoPlist.strings */,
 			);
 			path = Presafe;
 			sourceTree = "<group>";
@@ -214,6 +224,8 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				"hi-IN",
 			);
 			mainGroup = E8D5652F257A7EEC00A15B93;
 			productRefGroup = E8D56539257A7EEC00A15B93 /* Products */;
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D56548257A7EF000A15B93 /* LaunchScreen.storyboard in Resources */,
+				E8683366257BFB3E00658B4E /* InfoPlist.strings in Resources */,
 				E8D56545257A7EF000A15B93 /* Assets.xcassets in Resources */,
 				E8D56543257A7EEC00A15B93 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D5656C257AA1DA00A15B93 /* TempViewController.swift in Sources */,
 				E8D56540257A7EEC00A15B93 /* ViewController.swift in Sources */,
 				E8D5653C257A7EEC00A15B93 /* AppDelegate.swift in Sources */,
 				E8D5653E257A7EEC00A15B93 /* SceneDelegate.swift in Sources */,
@@ -297,10 +311,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E8683364257BFB3E00658B4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8683365257BFB3E00658B4E /* hi-IN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		E8D56541257A7EEC00A15B93 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E8D56542257A7EEC00A15B93 /* Base */,
+				E868335F257BF08700658B4E /* hi */,
+				E8683367257BFB3E00658B4E /* hi-IN */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +333,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				E8D56547257A7EF000A15B93 /* Base */,
+				E8683360257BF08700658B4E /* hi */,
+				E8683368257BFB3E00658B4E /* hi-IN */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -441,6 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TA.Presafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -459,6 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TA.Presafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

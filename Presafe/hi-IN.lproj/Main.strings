@@ -1,0 +1,15 @@
+/* Class = "UITextView"; text = "Our app will listen to everything that people says around you in the last minute and if we listen more than 10 abusive words that seems to be threatening, we will start a timer and if the timer is not switched off, your phone will automatically call the police. Please keep the app open in places you don't feel safe!"; ObjectID = "4si-N0-J0T"; */
+"4si-N0-J0T.text" = "हमारा ऐप उन सभी चीज़ों को सुनेगा जो लोग अंतिम समय में आपके आस-पास कहते हैं और यदि हम 10 से अधिक अपमानजनक शब्द सुनते हैं जो कि धमकी देने वाला लगता है, तो हम एक टाइमर शुरू करेंगे और यदि टाइमर बंद नहीं किया जाता है, तो आपका फ़ोन स्वचालित रूप से कॉल करेगा पुलिस। कृपया उन स्थानों पर ऐप खुला रखें जिन्हें आप सुरक्षित महसूस नहीं करते हैं!";
+
+/* Class = "UIButton"; normalTitle = "Stop Me"; ObjectID = "dDB-53-CWs"; */
+"dDB-53-CWs.normalTitle" = "मुझे रोको";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "fQl-v9-oc6"; */
+"fQl-v9-oc6.normalTitle" = "शुरू करें";
+
+/* Class = "UILabel"; text = "60 Seconds Left"; ObjectID = "S0C-GX-Ner"; */
+"S0C-GX-Ner.text" = "60 सेकंड बचे हैं";
+
+/* Class = "UINavigationItem"; title = "PreSafe"; ObjectID = "yua-8Q-Fwy"; */
+"yua-8Q-Fwy.title" = "PreSafe";
+

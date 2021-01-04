@@ -1,0 +1,9 @@
+/* Bundle name */
+"CFBundleName" = "Presafe";
+
+/* Privacy - Microphone Usage Description */
+"NSMicrophoneUsageDescription" = "हम आपके आस-पास बोले जाने वाले शब्दों को रिकॉर्ड करना चाहते हैं !!!!";
+
+/* Privacy - Speech Recognition Usage Description */
+"NSSpeechRecognitionUsageDescription" = "हम चाहते हैं कि यह शब्द उन लोगों को पहचानें जो आपके आसपास बोल रहे हैं";
+
